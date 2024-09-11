@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Curso de React",
+        "duration": "80H",
+        "instructor": "Rangel Xavier"
+    },
+    {
+        "id": 2,
+        "name": "Curso de AWS",
+        "duration": "60H",
+        "instructor": "Rafael"
+    },
+    {
+        "id": 3,
+        "name": "Curso de UI",
+        "duration": "100H",
+        "instructor": "Allen Vidal"
+    },
+    {
+        "id": 4,
+        "name": "Curso de Angular",
+        "duration": "60H",
+        "instructor": "Rangel Xavier"
+    }
+]

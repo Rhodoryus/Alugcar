@@ -1,0 +1,10 @@
+---
+const { id, name, price, transmission, bag } = Astro.props;
+---
+
+<div class="carro">
+  <h2>{name}</h2>
+  <p><strong>Preço:</strong> {price}</p>
+  <p><strong>Transmissão:</strong> {transmission}</p>
+  <p><strong>Capacidade do Porta-malas:</strong> {bag} L</p>
+</div>

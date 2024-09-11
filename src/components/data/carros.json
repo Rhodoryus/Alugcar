@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Toyota Corolla",
+        "price": "93.000",
+        "transmission": "Automatico",
+        "bag": 460
+    },
+    {
+        "id": 2,
+        "name": "GM Onix",
+        "price": "77.000",
+        "transmission": "Manual",
+        "bag": 320
+    },
+    {
+        "id": 3,
+        "name": "Fiat Mob",
+        "price": "56.000",
+        "transmission": "Manual",
+        "bag": 120
+    },
+    {
+        "id": 4,
+        "name": "VW Nivus",
+        "price": "122.000",
+        "transmission": "Automatico",
+        "bag": 460
+    }
+]

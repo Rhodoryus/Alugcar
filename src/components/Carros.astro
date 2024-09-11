@@ -1,0 +1,17 @@
+---
+const { id, name, price, transmission, bag } = Astro.props;
+import Carro from "../components/Carro.astro"
+import carros from "./data/carros.json"
+---
+
+<div class="lista-carros">
+    {carros.map((carro) => (
+      <Carro 
+        id={carro.id}
+        name={carro.name}
+        price={carro.price}
+        transmission={carro.transmission}
+        bag={carro.bag}
+      />
+    ))}
+  </div>

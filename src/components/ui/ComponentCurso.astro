@@ -1,0 +1,21 @@
+---
+import Cursos  from "../data/cursos.json";
+---
+
+<h3>Este é o componente</h3>
+
+<div class="curso">
+    {Cursos.map(
+        (curso) => (
+            <h3>(curso.name)</h3>
+            <p>Professor: {curso.instructor}</p>
+            <p>Duração: {curso.duration}</p>
+        )
+)}
+</div>
+<style>
+    .curso{
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+    }
+</style>
